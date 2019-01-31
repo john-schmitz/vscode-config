@@ -1,27 +1,26 @@
 {
-        "window.titleBarStyle": "custom",
-        "telemetry.enableTelemetry": false,
-        "telemetry.enableCrashReporter": false,
-        "editor.fontSize": 18,
-        "editor.fontFamily": "Hack",
-        "files.autoSave": "afterDelay",
-        "workbench.iconTheme": "material-icon-theme",
-        "workbench.colorTheme": "Dracula",
-        "git.autofetch": true,
-        "git.confirmSync": false,
-        "javascript.updateImportsOnFileMove.enabled": "always",
-        "files.exclude": {
-            "node_modules/": true,
-            "LICENSE":true
-        },
-        "[javascript]": {
-            "editor.formatOnSave": true,
-        },
-        "eslint.alwaysShowStatus": true
-        ,
-        "eslint.autoFixOnSave": true,
-        "explorer.confirmDragAndDrop": false,
-        "terminal.integrated.fontFamily": "monospace",
-        "git.enableSmartCommit": true,
-        "breadcrumbs.enabled": true
+    "window.titleBarStyle": "custom",
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.fontSize": 18,
+    "editor.fontFamily": "Hack",
+    "files.autoSave": "afterDelay",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "node_modules/": true,
+        "LICENSE":true,
+        ".next/":true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.autoFixOnSave": true,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.fontFamily": "monospace",
+    "git.enableSmartCommit": true,
+    "breadcrumbs.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2
 }
