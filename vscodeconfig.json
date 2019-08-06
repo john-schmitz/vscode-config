@@ -48,5 +48,7 @@
     },
     "files.watcherExclude": {
         "**/dist": true
-    }
+    },
+    "editor.minimap.enabled": false,
+    "workbench.tree.renderIndentGuides": "none"
 }
