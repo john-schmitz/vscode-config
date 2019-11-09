@@ -4,10 +4,8 @@
     "telemetry.enableCrashReporter": false,
     "editor.tabSize": 2,
     "editor.fontSize": 14,
-    "editor.fontFamily": "Cousine",
     "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
-    "eslint.alwaysShowStatus": true,
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
@@ -15,8 +13,10 @@
         "**/.svn": true,
         "**/CVS": true,
         "**/dist": true,
-        "node_modules/": true
+        "node_modules/": true,
+        "vendor/": true
     },
+    "eslint.alwaysShowStatus": true,
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
         "javascript",
@@ -30,7 +30,7 @@
             "autoFix": true
         }
     ],
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "[javascript]": {
         "editor.formatOnSave": false
     },
@@ -49,6 +49,18 @@
     "files.watcherExclude": {
         "**/dist": true
     },
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
     "editor.minimap.enabled": false,
-    "workbench.tree.renderIndentGuides": "none"
+    "workbench.tree.renderIndentGuides": "none",
+    "php.suggest.basic": false,
+    "window.zoomLevel": 1,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.preferences.quoteStyle": "single",
+    "editor.fontFamily": "Hack",
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "explorer.decorations.badges": false
 }
